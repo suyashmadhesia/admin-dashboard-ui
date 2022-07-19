@@ -33,32 +33,32 @@ const App = () => {
                         <div>
                             <Routes>
                                 {/* DashBoard */}
-                                <Route path="/" element={<Ecommerce />} />
-                                <Route path="/ecommerce" element={<Ecommerce />} />
+                                <Route path="/admin-dashboard-ui" element={<Ecommerce />} />
+                                <Route path="/admin-dashboard-ui/ecommerce" element={<Ecommerce />} />
 
 
                                 {/* Pages */}
-                                <Route path="/orders" element={<Orders />} />
-                                <Route path="/employees" element={<Employees />} />
-                                <Route path="/customers" element={<Customers />} />
+                                <Route path="/admin-dashboard-ui/orders" element={<Orders />} />
+                                <Route path="/admin-dashboard-ui/employees" element={<Employees />} />
+                                <Route path="/admin-dashboard-ui/customers" element={<Customers />} />
 
 
                                 {/* Apps */}
-                                <Route path="/calendar" element={<Calendar />} />
-                                <Route path="/editor" element={<Editor />} />
-                                <Route path="/color-picker" element={<ColorPicker />} />
-                                <Route path="/kanban" element={<Kanban />} />
+                                <Route path="/admin-dashboard-ui/calendar" element={<Calendar />} />
+                                <Route path="/admin-dashboard-ui/editor" element={<Editor />} />
+                                <Route path="/admin-dashboard-ui/color-picker" element={<ColorPicker />} />
+                                <Route path="/admin-dashboard-ui/kanban" element={<Kanban />} />
 
 
                                 {/* Charts */}
-                                <Route path="/line" element={<Line />} />
-                                <Route path="/area" element={<Area />} />
-                                <Route path="/bar" element={<Bar />} />
-                                <Route path="/pie" element={<Pie />} />
-                                <Route path="/financial" element={<Financial />} />
-                                <Route path="/color-mapping" element={<ColorMapping />} />
-                                <Route path="/pyramid" element={<Pyramid />} />
-                                <Route path="/stacked" element={<Stacked />} />
+                                <Route path="/admin-dashboard-ui/line" element={<Line />} />
+                                <Route path="/admin-dashboard-ui/area" element={<Area />} />
+                                <Route path="/admin-dashboard-ui/bar" element={<Bar />} />
+                                <Route path="/admin-dashboard-ui/pie" element={<Pie />} />
+                                <Route path="/admin-dashboard-ui/financial" element={<Financial />} />
+                                <Route path="/admin-dashboard-ui/color-mapping" element={<ColorMapping />} />
+                                <Route path="/admin-dashboard-ui/pyramid" element={<Pyramid />} />
+                                <Route path="/admin-dashboard-ui/stacked" element={<Stacked />} />
 
                             </Routes>
                         </div>
