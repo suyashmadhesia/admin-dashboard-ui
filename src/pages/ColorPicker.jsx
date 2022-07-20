@@ -16,6 +16,7 @@ const ColorPicker = () => {
             <ColorPickerComponent
               id="inline-palette"
               mode="Palette"
+              modeSwitcher={false}
               inline
               showButtons={false}
             />
